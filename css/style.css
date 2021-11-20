@@ -11,6 +11,7 @@
 /* display_music */
 @import "/css/display_music/display.css";
 @import "/css/display_music/music_bar.css";
+@import "/css/display_music/display_control.css";
 
 body{
     height: 100%;

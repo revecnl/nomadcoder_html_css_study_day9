@@ -1,0 +1,42 @@
+.display_control{
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.display_control ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.re_random{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 100px;
+    color:rgb(145, 145, 145);
+}
+
+
+
+
+.back_forword{
+    font-size: 40px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+.paly_button{
+    font-size: 80px;
+    height: 80px;
+    width: 80px;
+    border:none;
+    border-radius: 40px;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+} 
