@@ -10,11 +10,13 @@
 
 /* display_music */
 @import "/css/display_music/display.css";
+@import "/css/display_music/music_bar.css";
 
 body{
     height: 100%;
     overflow: auto;
     font-family: 'Comfortaa', cursive;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .page{
@@ -29,6 +31,7 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
+    background-color: white;
 }
 
 
@@ -38,4 +41,5 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
+    background-color: white;
 }
