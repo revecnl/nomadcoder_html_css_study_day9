@@ -1,0 +1,5 @@
+.play_list_page_nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20%;
+}

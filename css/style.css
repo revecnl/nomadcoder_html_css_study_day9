@@ -1,0 +1,41 @@
+/* common */
+@import "/css/playlist/reset.css";
+@import "/css/playlist/nav.css";
+
+/* palylist.html */
+@import "/css/playlist/main.css";
+@import "/css/playlist/control.css";
+@import "/css/playlist/song.css";
+@import "/css/playlist/component.css";
+
+/* display_music */
+@import "/css/display_music/display.css";
+
+body{
+    height: 100%;
+    overflow: auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+.page{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.play_song_page{
+    width: 530px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.play_list_page{
+    width: 530px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}

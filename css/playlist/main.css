@@ -1,0 +1,92 @@
+.artist_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.play_list_page_album_cover{
+    width: 150px;
+    height: 150px;
+    margin-top:25px;
+    border: none;
+    border-radius: 75px;
+    box-shadow: 0px 5px 3px rgba(0,0,0,0.5);
+}
+
+.artist_name{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+
+
+.artist_tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.tags{
+    border:none;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    color:white;
+    width: 60px;
+    height: 10px;
+    font-size: 5px;
+    padding-top: 10px;
+    margin-left: 15px;
+    overflow:hidden;
+    padding-bottom: 10px;
+}
+
+
+.play_list_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.shuffle{
+    border:none;
+    background-color: black;
+    border-radius: 30px;
+    color:white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 5px 3px rgba(0,0,0,0.3);
+}
+
+.heart{
+    border:none;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px;
+    color:white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 5px 3px rgba(0,0,0,0.3);
+}
+
+.heart i{
+    padding-right: 10px;
+    color: red;
+}

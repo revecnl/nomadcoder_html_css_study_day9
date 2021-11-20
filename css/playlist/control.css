@@ -1,0 +1,51 @@
+.control_bar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    min-width: 400px;
+    left: 25%;
+    transform: translate(-50%, 0);
+    height: 60px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.button_list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 
+}
+
+.control_buttons{
+    font-size: 30px;
+    color:white;
+    right: 100px;
+}
+
+.control_buttons li{
+    padding-left: 15px;
+}
+
+.control_bar_name{
+    color: white;
+    width: 200px;
+    overflow:hidden;
+}
+
+.each_song__name{
+    font-size: 20px;
+}
+
+.each_song_artist_name{
+    font-size: 15px;
+    margin-top:5px;
+    margin-bottom:10px;
+}

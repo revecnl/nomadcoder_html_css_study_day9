@@ -1,0 +1,36 @@
+.play_song_page{
+    width: 530px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.paly_song_info{
+    margin-top:100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.paly_song_info h1{
+    font-size: 25px;
+    font-weight:800;
+    margin-top: 30px;
+}
+
+.paly_song_info h3{
+    font-size: 15px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+    margin-top: 15px;
+}
+
+.play_song_cover{
+    border: none;
+    height:250px;
+    border-radius: 30px;
+    box-shadow: 1px 5px 10px 5px rgba(60, 110, 150, 0.945);
+}
+

@@ -1,0 +1,49 @@
+.loading {
+    margin-left:52px;
+    margin-top: 35px;
+    width: 10Px;
+    height: 10px;
+    position: absolute;
+    
+  }
+
+.bar div {
+    position: absolute;
+    bottom: 0px;
+    width: 5px;
+    height: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    animation: bar 1s infinite ease;
+  }
+
+@keyframes bar { 
+    0% {
+        transform: scaleY(1);
+      }
+      25% {
+        transform: scaleY(2);
+      }
+      50%{
+        transform: scaleY(1.5);
+      }
+    75%{
+        transform: scaleY(1);
+      }
+}
+
+.bar div:nth-child(1){
+    animation-delay: -0.3s;
+    left: -10px;
+    
+}
+.bar div:nth-child(2){
+    left: 0px;
+    animation-delay: -0.1s;
+    
+}
+.bar div:nth-child(3){
+    animation-delay: 0.5s;
+    left: 10px;
+    
+}
